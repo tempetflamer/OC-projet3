@@ -27,15 +27,15 @@ Texte: Roboto
 
 *Couleurs*
 Primaire : #9356DC
-<!-- - ![#9356DC](https://via.placeholder.com/200x200/9356DC/969696?text=+) `#9356DC`
-- https://via.placeholder.com/200x200/9356DC/969696?text=+ -->
+
 <img src="./9356DC.jpg" alt="couleur #9356DC"/> 
 
-
 Secondaire : #FF79DA
+
 <img src="./FF79DA.jpg" alt="couleur #FF79DA"/> 
 
 tertiaire : #99E2D0
+
 <img src="./99E2D0.jpg" alt="couleur #99E2D0"/> 
 
 ### Problématique (enjeux)
@@ -97,4 +97,6 @@ Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils d
 ## Note de fin de réalisation
 
 
-
+<!-- - ![#9356DC](https://via.placeholder.com/200x200/9356DC/969696?text=+) `#9356DC`
+- https://via.placeholder.com/200x200/9356DC/969696?text=+ 
+bloquer par github acces denied "Invalid upstream response (403)"-->
