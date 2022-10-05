@@ -1,3 +1,11 @@
+<style>
+.carre {
+    height: 30px;
+    width: 30px;
+    background: red;
+}
+</style>
+
 # OC-projet3
 Openclassrooms Développeur d'application - JavaScript React - Projet 3 : Dynamisez une page web avec des animations CSS
 
@@ -27,8 +35,14 @@ Texte: Roboto
 
 *Couleurs*
 Primaire : #9356DC
-- ![#9356DC](https://via.placeholder.com/200x200/9356DC/969696?text=+) `#9356DC`
-- https://via.placeholder.com/200x200/9356DC/969696?text=+
+<!-- - ![#9356DC](https://via.placeholder.com/200x200/9356DC/969696?text=+) `#9356DC`
+- https://via.placeholder.com/200x200/9356DC/969696?text=+ -->
+- texte {#identifier .carre}
+<span class="carre"></span>
+<span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
+
 
 Secondaire : #FF79DA
 - ![#FF79DA](https://placehold.it/15/FF79DA/000000?text=+) `#FF79DA`
