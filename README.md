@@ -13,13 +13,27 @@ Nous nous positionnons sur un marché de niche, avec les restaurants luxueux des
 
 ### Concurrence
 | Nom de l'entreprise | Nombres de salariés | Domaine d'activité | Points positifs | Points négatifs |
-| Mylittlefoodie | Environ 50 d’après leur site web. | Réservation de tables dans les palaces parisiens. | * Bonne implémentation en France. * Tarifs préférentiels sur les menus. * Site web très dynamique. * Bon référencement. | * Pas de possibilité de voir les menus. * Dates de réservation limitées à 2 jours par semaine. |
-| LebonParis | 15 salariés  | Classement des restaurants en fonction de leurs menus. | * Beaucoup de choix de restaurants. * Menus très bien mis en avant sur la page d’accueil. | * Pas de possibilité de réservation. * Pas de possibilité d’agrandir les menus. |
+| ------|-----|-----|-----|-----|
+| Mylittlefoodie | Environ 50 d’après leur site web. | Réservation de tables dans les palaces parisiens. | <ul><li>Bonne implémentation en France.</li><li>Tarifs préférentiels sur les menus.</li><li>Site web très dynamique.</li><li>Bon référencement.</li></ul> | <ul><li>Pas de possibilité de voir les menus.</li><li>Dates de réservation limitées à 2 jours par semaine.</li></ul> |
+| LebonParis | 15 salariés  | Classement des restaurants en fonction de leurs menus. | <ul><li>Beaucoup de choix de restaurants.</li><li>Menus très bien mis en avant sur la page d’accueil.</li></ul> | <ul><li>Pas de possibilité de réservation.</li><li>Pas de possibilité d’agrandir les menus.</li></ul> |
 
 ### Cible
 Classes moyennes et supérieures, connectées et souvent pressées, souhaitant déguster des produits de qualité.
 
 ### Identité graphique
+*Polices*
+Logo et titres: Shrikhand
+Texte: Roboto
+
+*Couleurs*
+Primaire : #9356DC
+- ![#9356DC](https://via.placeholder.com/200x200/9356DC/969696?text=+) `#9356DC`
+
+Secondaire : #FF79DA
+- ![#FF79DA](https://placehold.it/15/FF79DA/000000?text=+) `#FF79DA`
+
+tertiaire : #99E2D0
+- ![#99E2D0](https://placehold.it/15/99E2D0/000000?text=+) `#99E2D0`
 
 ### Problématique (enjeux)
 Nous souhaitons ouvrir nos services à la capitale française. En passans par deux objectifs :
