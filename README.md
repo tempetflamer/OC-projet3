@@ -1,11 +1,3 @@
-<style>
-.carre {
-    height: 30px;
-    width: 30px;
-    background: red;
-}
-</style>
-
 # OC-projet3
 Openclassrooms Développeur d'application - JavaScript React - Projet 3 : Dynamisez une page web avec des animations CSS
 
@@ -37,18 +29,14 @@ Texte: Roboto
 Primaire : #9356DC
 <!-- - ![#9356DC](https://via.placeholder.com/200x200/9356DC/969696?text=+) `#9356DC`
 - https://via.placeholder.com/200x200/9356DC/969696?text=+ -->
-- texte {#identifier .carre}
-<span class="carre"></span>
-<span style="color:green;font-weight:700;font-size:20px">
-    markdown color font styles
-</span>
+<img src="./9356DC.jpg" alt="couleur #9356DC"/> 
 
 
 Secondaire : #FF79DA
-- ![#FF79DA](https://placehold.it/15/FF79DA/000000?text=+) `#FF79DA`
+- <img src="./FF79DA.jpg" alt="couleur #FF79DA"/> 
 
 tertiaire : #99E2D0
-- ![#99E2D0](https://placehold.it/15/99E2D0/000000?text=+) `#99E2D0`
+- <img src="./99E2D0.jpg" alt="couleur #99E2D0"/> 
 
 ### Problématique (enjeux)
 Nous souhaitons ouvrir nos services à la capitale française. En passans par deux objectifs :
