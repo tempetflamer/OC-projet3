@@ -28,6 +28,7 @@ Texte: Roboto
 *Couleurs*
 Primaire : #9356DC
 - ![#9356DC](https://via.placeholder.com/200x200/9356DC/969696?text=+) `#9356DC`
+- https://via.placeholder.com/200x200/9356DC/969696?text=+
 
 Secondaire : #FF79DA
 - ![#FF79DA](https://placehold.it/15/FF79DA/000000?text=+) `#FF79DA`
