@@ -1,0 +1,6 @@
+.about {
+    @include about;
+    p {
+      color: #4d4d4d;
+    }
+  }

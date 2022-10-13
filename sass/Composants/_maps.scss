@@ -1,0 +1,13 @@
+.maps {
+    margin-top: 15px;
+    background: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 5px 5px 0px darken(#eaeaea, 10%);;
+  }
+  
+  .maps__search input{
+    @include maps;
+  }
+  

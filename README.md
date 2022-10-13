@@ -31,15 +31,15 @@ Texte: Roboto
 
 Primaire : #9356DC
 
-<img src="./9356DC.jpg" alt="couleur #9356DC"/> 
+<img src="./public/img/colors/9356DC.jpg" alt="couleur #9356DC"/> 
 
 Secondaire : #FF79DA
 
-<img src="./FF79DA.jpg" alt="couleur #FF79DA"/> 
+<img src="./public/img/colors/FF79DA.jpg" alt="couleur #FF79DA"/> 
 
 tertiaire : #99E2D0
 
-<img src="./99E2D0.jpg" alt="couleur #99E2D0"/> 
+<img src="./public/img/colors/99E2D0.jpg" alt="couleur #99E2D0"/> 
 
 ### Problématique (enjeux)
 Nous souhaitons ouvrir nos services à la capitale française. En passans par deux objectifs :

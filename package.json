@@ -1,0 +1,25 @@
+{
+  "name": "oc-projet3",
+  "version": "1.0.0",
+  "description": "projet 3 Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.min.css -w --style compressed --no-source-map",
+    "prefix": "postcss ./public/css/style.min.css --use autoprefixer -d ./public/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tempetflamer/OC-projet3.git"
+  },
+  "author": "Nicolas Lecroq",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/tempetflamer/OC-projet3/issues"
+  },
+  "homepage": "https://github.com/tempetflamer/OC-projet3#readme",
+  "dependencies": {
+    "sass": "^1.55.0",
+    "autoprefixer": "^10.4.12"
+  }
+}
