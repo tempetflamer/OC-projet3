@@ -1,0 +1,38 @@
+footer {
+    background-color: #353535;
+    padding: 5px;
+    color: white;
+
+    img,ul {
+        margin-left: 20px;
+    }
+
+    img{
+        margin-top: 20px;
+        /*width: 25%;*/
+        width: 120px;
+        filter: invert(100%) sepia(0%) saturate(7471%) hue-rotate(34deg) brightness(105%) contrast(106%);
+    }
+
+    ul {  
+
+        padding: 0;
+      li {
+        padding: 5px 0 5px 0;
+  
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+
+
+  
+      .fa-utensils {
+        margin-right: 12px;
+      }
+      .fa-hands-helping {
+        margin-right: 5px;
+      }
+  

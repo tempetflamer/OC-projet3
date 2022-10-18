@@ -1,0 +1,73 @@
+.restaurants {
+    @include restaurants;
+    background-color: #F6F6F6;
+
+    a {
+        width: 340px;
+    }
+
+    &__article {
+        background-color: #ffffff;
+        border-radius: 25px;
+        width: 340px;
+        @include flex-column;
+        margin-bottom: 20px;
+        box-shadow: 4px 4px 6px 1px #c4c4c4;
+
+        &--green {
+            margin-top: 16px;
+            background-color: #99E2D0;
+            color: #008766;
+            border: 5px solid #99E2D0;
+            border-radius: 5px;
+            width: 85px;
+            padding: 5px;
+
+            position: absolute;
+            left: 260px;
+
+        }
+
+        &__data {
+            @include flex-row;
+            @include card-margin;
+            width: 100%;
+
+            div {
+                width: 80%;
+                p{
+                    margin-top: 5px;
+                }
+            }
+
+            .fa-heart {
+                padding:8px;
+                margin-top: 5px;
+                text-shadow: 0 0 2px #000;
+                color: #fff;
+
+                &:hover {
+                    text-shadow: none;
+                    background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    -moz-background-clip: text;
+                    -moz-text-fill-color: transparent;
+
+                }
+
+            }
+        }
+
+    }
+
+    div {
+        img {
+            width: 340px;
+            height: auto;
+            border-radius: 25px 25px 0 0;
+            //object-fit: contain;
+            //object-position :
+        }
+    }
+}
