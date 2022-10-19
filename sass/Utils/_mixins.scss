@@ -14,6 +14,9 @@
 @mixin card-margin {
   margin: 15px 15px;
 }
+@mixin card-padding {
+  padding: 15px 15px;
+}
 
 @mixin flex-center {
   display: flex;
@@ -56,6 +59,11 @@
 }
 
 @mixin restaurants {
+  width: 100%;
+  @include section-padding;
+}
+
+@mixin menu {
   width: 100%;
   @include section-padding;
 }

@@ -1,0 +1,82 @@
+.menu-image{
+    width: 100%;
+    max-width: 600px;
+}
+.row{
+@include flex-row;
+align-items : center;
+
+}
+
+.menu{
+    @include menu;
+    background : #F6F6F6;
+    border-top-right-radius : 25px;
+    border-top-left-radius : 25px;
+    width: 100%;
+    position: relative;
+    margin-top: -50px;
+
+    &__title{
+        margin-right: 20px;
+        justify-content: space-between;
+
+        h1{
+            // font-weight: 1000;
+            font-family: 'Shrikhand'; /* ...*/
+            font-stretch: normal;
+        }
+
+        .fa-heart{
+            text-shadow: 0 0 2px #000;
+                color: #F6F6F6;
+        }
+    }
+
+    &__meals{
+
+        h2{
+            color : #606060;
+            font-size : 18px;
+            font-weight : 500;
+            margin-top: 35px;
+
+        }
+        h3{
+            font-size : 16px;
+        }
+        .line {
+            width: 50px;
+            border: 2px solid #99E2D0;
+            margin-top: -10px;
+            margin-bottom: 15px;
+          }
+
+        &__data{
+            background-color: #ffffff;
+            border-radius: 25px;
+            width: 340px;
+            @include flex-column;
+            margin-bottom: 20px;
+            box-shadow: 4px 4px 6px 1px #c4c4c4;
+            @include card-padding;
+
+
+            div {
+                width: 95%;
+                @include flex-row;
+                justify-content: space-between;
+                p{
+                    margin-top: 5px;
+                }
+            }
+
+        }
+    }
+
+    .btn--center {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+}
