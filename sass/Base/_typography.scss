@@ -1,19 +1,8 @@
-@font-face {
-    font-family: "Roboto";
-    src: url('https://fonts.googleapis.com/css2?family=Robotoy&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
-@font-face {
-    font-family: "Shrikhand";
-    src: url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-}
 
-h1, h2, h3 {
-    font-family: 'Shrikhand', 'Roboto', sans-serif;
-    font-weight: bold;
-}
-
-body, html {
+body, html, h2, h3 { /*est-ce que je peux pas juste mettre html genre*/
     font-family: 'Roboto', sans-serif;
 }
 
