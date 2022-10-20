@@ -14,6 +14,7 @@
 @mixin card-margin {
   margin: 15px 15px;
 }
+
 @mixin card-padding {
   padding: 15px 15px;
 }
@@ -66,4 +67,15 @@
 @mixin menu {
   width: 100%;
   @include section-padding;
+}
+
+//j'en fais un mixin mais théoriquement ça devrait-être un composants
+
+@mixin heart-hover {
+  text-shadow: none;
+  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
