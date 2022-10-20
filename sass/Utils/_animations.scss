@@ -6,3 +6,34 @@
       -webkit-transform: rotate(360deg);
     }
   }
+
+  @keyframes grow{
+    0%,100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+    }
+  
+    50%{
+      -webkit-transform: scaleY(1.5);
+      transform: scaleY(1.5);
+    }
+  }
+
+  @keyframes loader {
+    0% {
+      position: fixed;
+      display: flex;
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      position: fixed;
+      opacity: 0;
+    }
+  }
+
+  @keyframes hide-scroll {
+    from, to { overflow: hidden; } 
+  }
