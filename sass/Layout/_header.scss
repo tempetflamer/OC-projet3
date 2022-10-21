@@ -1,15 +1,16 @@
 .header-home {
-    display : flex;
-    align-items : center;
-    justify-content : center;
     margin-top : 25px;
 
-    img{
-      width : 50%;
-      height : 50%;
-      min-width : 150px;
-      max-width : 350px;
-    }
+    a{
+      @include flex-center;
+      img{
+        width : 50%;
+        height : 50%;
+        min-width : 150px;
+        max-width : 350px;
+      }
+    } 
+
   }
 
 
@@ -20,13 +21,18 @@
     @include flex-row;
     align-items : center;
 
+    a{
+      display: flex;
+      justify-content : center;
 
-   img{
-      width : 50%;
-      height : 50%;
-      min-width : 150px;
-      max-width : 350px;
+      img{
+        width : 50%;
+        height : 50%;
+        min-width : 150px;
+        max-width : 350px;
+      }
     }
+
 
     &--center{
       @include flex-center;
