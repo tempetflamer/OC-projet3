@@ -17,7 +17,7 @@
   .header-menu {
     margin-left: 20px;
     margin-top : 25px;
-    margin-bottom: 15px; /* cette éléméent était dans la section en desous sur la page du home */
+    margin-bottom: 15px; /* cette élément était dans la section en desous sur la page du home */
     @include flex-row;
     align-items : center;
 
@@ -36,5 +36,14 @@
 
     &--center{
       @include flex-center;
+    }
+  }
+
+  @keyframes fadein {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
     }
   }

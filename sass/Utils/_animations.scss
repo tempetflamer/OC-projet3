@@ -41,3 +41,17 @@
   @keyframes hide-scroll {
     from, to { overflow: hidden; } 
   }
+
+  @keyframes fadein {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+
+  @keyframes baseline {
+    0% { transform: translateY(20%); }
+    100% { transform: translateY(-20%); }
+  }

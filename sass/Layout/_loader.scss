@@ -1,4 +1,4 @@
- html{
+ .index_bar{
     animation: hide-scroll 2.5s backwards;
  }
   .loader {
@@ -9,7 +9,7 @@
     align-items: center;
     background: #000;
     z-index: -99;
-    animation: loader 1s ease-in-out 2.5s forwards;
+    animation: loader 0.5s ease-in-out 2.5s forwards;
   }
 
   
