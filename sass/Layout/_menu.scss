@@ -39,7 +39,7 @@
 
     &__meals {
 
-        .appetizers:first-of-type(1) {
+/*         .appetizers:first-of-type(1) {
             animation: fadein 1s ease-in-out;
         }
 
@@ -57,7 +57,7 @@
 
         .desserts {
             animation: fadein 6s ease-in-out;
-        }
+        } */
 
         h2 {
             color: #606060;
@@ -193,18 +193,30 @@
 
 .appetizers .menu__meals__data:nth-child(3) {
     animation: fadein 3.10s ease-in-out;
+    h3, p {
+        animation : baseline 3.10s forwards;
+    }
 }
 
 .appetizers .menu__meals__data:nth-child(4) {
     animation: fadein 3.4s ease-in-out;
+    h3, p {
+        animation : baseline 3.4s forwards;
+    }
 }
 
 .appetizers .menu__meals__data:nth-child(5) {
     animation: fadein 3.7s ease-in-out;
+    h3, p {
+        animation : baseline 3.7s forwards;
+    }
 }
 
 .appetizers .menu__meals__data:nth-child(6) {
     animation: fadein 4s ease-in-out;
+    h3, p {
+        animation : baseline 4s forwards;
+    }
 }
 
 .dishes h2:nth-child(1) {
@@ -217,14 +229,23 @@
 
 .dishes .menu__meals__data:nth-child(3) {
     animation: fadein 4.9s ease-in-out;
+    h3, p {
+        animation : baseline 4.9s forwards;
+    }
 }
 
 .dishes .menu__meals__data:nth-child(4) {
     animation: fadein 5.2s ease-in-out;
+    h3, p {
+        animation : baseline 5.2s forwards;
+    }
 }
 
 .dishes .menu__meals__data:nth-child(5) {
     animation: fadein 5.5s ease-in-out;
+    h3, p {
+        animation : baseline 5.5s forwards;
+    }
 }
 
 .desserts h2:nth-child(1) {
@@ -237,12 +258,21 @@
 
 .desserts .menu__meals__data:nth-child(3) {
     animation: fadein 6.7s ease-in-out;
+    h3, p {
+        animation : baseline 6.7s forwards;
+    }
 }
 
 .desserts .menu__meals__data:nth-child(4) {
     animation: fadein 7s ease-in-out;
+    h3, p {
+        animation : baseline 7s forwards;
+    }
 }
 
 .desserts .menu__meals__data:nth-child(5) {
     animation: fadein 7.3s ease-in-out;
+    h3, p {
+        animation : baseline 7.3s forwards;
+    }
 }
