@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ohmyfood</title>
-    <link rel="stylesheet" href="/public/css/style.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="description"
@@ -15,230 +15,233 @@
 
 <body>
     <header class="header-menu">
-        <a href="/index.html"><i class="fas fa-arrow-left fa-pull-left fa-xl"></i></a>
-        <div class="header-menu--center"><a href="../../index.html"><img src="/public/img/logo/ohmyfood.png" alt="logo ohmyfood"></div></a>
+        <a href="../../index.html"><i class="fas fa-arrow-left fa-pull-left fa-xl"></i></a>
+        <div class="header-menu--center"><a href="../../index.html"><img src="../img/logo/ohmyfood.png" alt="logo ohmyfood"></a></div>
     </header>
     <main>
-        <img class="menu-image" src="/public/img/restaurants/le-delice-des-sens.jpg"
+        <img class="menu-image" src="../img/restaurants/a-la-francaise.jpg"
             alt="Restaurant le délice des sens">
 
         <section class="menu">
             <div class="menu__title row">
-                <h1>Le délice des sens</h1>
+                <h1>À la française</h1>
                 <i class="fa-solid fa-heart fa-lg fa-pull-right"></i>
             </div>
 
-            <section class="menu__meals">
-                <h2>ENTRÉES</h2>
-                <div class="line"></div>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Tartare de poulpe acidulé</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Aux zestes d'orange</p>
-                                <b>
-                                    <p>25€</p>
-                                </b>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Velouté de légumes d'antan</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Carotte, panais, topinambour</p>
-                                <b>
-                                    <p>35€</p>
-                                </b>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Soupe à l'oignon</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Revisitée</p>
-                                <b>
-                                    <p>20€</p>
-                                </b>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </section>
+            <div class="menu--flex">
 
-            <section class="menu__meals">
-                <h2>PLATS</h2>
-                <div class="line"></div>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Coquilles Saint-Jacques</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Accompagnées d'une purée de
-                                    panais</p>
-                                <b>
-                                    <p>40€</p>
-                                </b>
+                <section class="menu__meals appetizers">
+                    <h2>ENTRÉES</h2>
+                    <div class="line"></div>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Tartare de poulpe acidulé</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Aux zestes d'orange</p>
+                                    <b>
+                                        <p>25€</p>
+                                    </b>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Magret de canard</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Et parmentier de pommes de terre
-                                </p>
-                                <b>
-                                    <p>35€</p>
-                                </b>
+                    </article>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Velouté de légumes d'antan</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Carotte, panais, topinambour</p>
+                                    <b>
+                                        <p>35€</p>
+                                    </b>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Pigeonneau d’Ille-et-Vilaine</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Sur son lit de gnocchis aux
-                                    légumes</p>
-                                <b>
-                                    <p>44€</p>
-                                </b>
+                    </article>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Soupe à l'oignon</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Revisitée</p>
+                                    <b>
+                                        <p>20€</p>
+                                    </b>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-            </section>
-
-            <section class="menu__meals">
-                <h2>DESSERTS</h2>
-                <div class="line"></div>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Pétales de violettes glacés</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Et purée de noisettes</p>
-                                <b>
-                                    <p>18€</p>
-                                </b>
+                    </article>
+                </section>
+    
+                <section class="menu__meals dishes">
+                    <h2>PLATS</h2>
+                    <div class="line"></div>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Coquilles Saint-Jacques</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Accompagnées d'une purée de
+                                        panais</p>
+                                    <b>
+                                        <p>40€</p>
+                                    </b>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Fondant au chocolat</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Revisité</p>
-                                <b>
-                                    <p>22€</p>
-                                </b>
+                    </article>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Magret de canard</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Et parmentier de pommes de terre
+                                    </p>
+                                    <b>
+                                        <p>35€</p>
+                                    </b>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-                <article class="menu__meals__data">
-                    <div class="menu__meals__data__content">
-                        <h3 class="menu__meals__data__content--overflow">Millefeuille croustillant</h3>
-                        <div class="menu__meals__data__content__block">
-                            <div class="menu__meals__data__content__block--text">
-                                <p class="menu__meals__data__content__block--overflow">Myrtilles et pâte d’amande</p>
-                                <b>
-                                    <p>23€</p>
-                                </b>
+                    </article>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Pigeonneau d’Ille-et-Vilaine</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Sur son lit de gnocchis aux
+                                        légumes</p>
+                                    <b>
+                                        <p>44€</p>
+                                    </b>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="menu__meals__data--float-right">
-                        <div class="menu__meals__data__animation">
-                            <div class="menu__meals__data__animation--cross">
-                                <i class="fas fa-check-circle fa-2xl"></i>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
                             </div>
                         </div>
+                    </article>
+                </section>
+    
+                <section class="menu__meals desserts">
+                    <h2>DESSERTS</h2>
+                    <div class="line"></div>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Pétales de violettes glacés</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Et purée de noisettes</p>
+                                    <b>
+                                        <p>18€</p>
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Fondant au chocolat</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Revisité</p>
+                                    <b>
+                                        <p>22€</p>
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="menu__meals__data">
+                        <div class="menu__meals__data__content">
+                            <h3 class="menu__meals__data__content--overflow">Millefeuille croustillant</h3>
+                            <div class="menu__meals__data__content__block">
+                                <div class="menu__meals__data__content__block--text">
+                                    <p class="menu__meals__data__content__block--overflow">Myrtilles et pâte d’amande</p>
+                                    <b>
+                                        <p>23€</p>
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__meals__data--float-right">
+                            <div class="menu__meals__data__animation">
+                                <div class="menu__meals__data__animation--cross">
+                                    <i class="fas fa-check-circle fa-2xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+    
+                <div class="btn--center">
+                    <div class="btn__about">
+                        <button>Commander</button>
                     </div>
-                </article>
-            </section>
-
-            <div class="btn--center">
-                <div class="btn__about">
-                    <button>Commander</button>
                 </div>
+
             </div>
-
-        </section>
-
+    
+            </section>
 
     </main>
     <!--Footer-->
     <footer>
-        <img src="/public/img/logo/ohmyfood.svg" alt="logo ohmyfood">
+        <a href="../../index.html"><img src="../img/logo/ohmyfood.svg" alt="logo ohmyfood"></a>
         <ul>
             <li><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
             <li><a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>
