@@ -1,171 +1,114 @@
-
-
 /* Tablet */
 
 @media screen and (min-width: 768px) {
 
-
-/*   .restaurants {
+  .restaurants {
     @include restaurants;
     background-color: #F6F6F6;
+    text-align: center;
 
-    a {
-        width: 340px;
+    &--flex {
+      // Les margins sont là pour éviter les problèmes de marges lié au scale
+      margin-right: 30px;
+      margin-left: 30px;
+      margin-top: 40px;
+      gap: 60px 80px;
+      @include flex-row;
+      flex-wrap: wrap;
+      justify-content: center;
+
     }
+
+
 
     &__article {
-        background-color: #ffffff;
-        border-radius: 25px;
-        width: 340px;
-        @include flex-column;
-        margin-bottom: 20px;
-        box-shadow: 4px 4px 6px 1px #c4c4c4;
-
-        > div {
-          border-radius: 25px;
-          box-shadow: 4px 4px 6px #aaa;
-          margin: 20px;
-          position: relative;
-          background: #fff;
-
-          > div{
-            width: 100%;
-            &--green {
-              color: #008766;
-              background: #99E2D0;
-              border: 5px solid #99E2D0;
-              border-radius: 5px;
-              position: absolute;
-              right: 1%;
-              top: 5%;
-    
-          }
-          }
-
-        }
-
-
-
-        }
-
-
-    > div {
-      @include flex-row;
-      gap: 80px;
-      flex-wrap: wrap;
-      justify-content: center;
-
-        img {
-            width: 100%;
-            height: 225px;
-            border-radius: 25px 25px 0 0;
-            object-fit: cover;
-        }
-    }
-} */
-
-.restaurants {
-  @include restaurants;
-  background-color: #F6F6F6;
-  text-align: center;
-
-  &--flex{
-    // Les margins sont là pour éviter les problèmes de marges lié au scale
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 40px;
-    gap: 60px 80px;
-    @include flex-row;
-    //gap: 160px;
-    flex-wrap: wrap;
-    justify-content: center;
-
-  }
-
-
-
-  &__article {
-
-      //width: 510px;
-/*       min-width: 340px;
-      max-width: 510px; */
-
       transform: scale(1.1);
 
-
       &--green {
-        margin-left : -20px;
+        margin-left: -20px;
       }
+
+    }
 
   }
 
-}
 
-
-  .operation{
+  .operation {
     text-align: center;
-    div{
+
+    div {
       @include flex-row;
       justify-content: center;
       flex-wrap: wrap;
     }
-    
+
   }
 
-    /* Menus */
-    .menu-image {
-        width: 100%;
-        max-height: 500px;
-        object-fit: cover;
-        
+  /* Menus */
+  .menu-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+
+  }
+
+  .menu {
+    &__title {
+      justify-content: center !important; // voir si la classe row existe autrepart sinon enlever row pour enlerver imortant property (descente d'un en priorité)
+      gap: 40px;
+
+      h1 {
+        //augmenter la font size
+      }
     }
 
-    .menu{
-        &__title {
-            justify-content: center !important; // voir si la classe row existe autrepart sinon enlever row pour enlerver imortant property (descente d'un en priorité)
-            gap: 40px;
-
-            h1{
-                //augmenter la font size
-            }
-        }
-
-        &--flex{ // rupture a 777 pour les deux à coté et 1157 pour les 3 à coté
-            @include flex-row;
-            justify-content:center;
-            gap: 40px;
-            flex-wrap: wrap;
-        }
-
+    &--flex {
+      // rupture a 777 pour les deux à coté et 1157 pour les 3 à coté
+      @include flex-row;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
     }
 
-    /* Footer */
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-        img{
-            width: 140px;
-        }
-    
-        ul {    
-            padding: 0;
-            display: flex;
-            gap: 40px; // peut peut-être le faire changer davantage en fonction de la taille de l'écran notamemnt au cap des 1280px
-        }
+  }
 
-      }
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-      /* header */
-      .header-menu {
-    
-        a{
-          .fa-arrow-left{
-            left: 30px; // faire une animation poru le décalaage non oublie;
-          }
-        }
+    img {
+      width: 140px;
+    }
+
+    ul {
+      padding: 0;
+      display: flex;
+      gap: 40px; // peut peut-être le faire changer davantage en fonction de la taille de l'écran notamemnt au cap des 1280px
+    }
+
+  }
+
+  /* header */
+  .header-menu {
+
+    a {
+      .fa-arrow-left {
+        left: 30px;
       }
+    }
+  }
+
+  /* Animation */
+  .circle2 {
+    display: flex;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    animation: rotate 2.5s linear infinite;
+  }
 }
 
 //remplacer tous ces gap par une taille
@@ -173,53 +116,36 @@
 
   .restaurants {
 
-  > div {
-    @include flex-row;
-    //gap: 160px;
-    flex-wrap: wrap;
-    justify-content: center;
+    > div {
+      @include flex-row;
+      flex-wrap: wrap;
+      justify-content: center;
 
 
+    }
   }
 }
-}
-
-/* trop moche */
-/* @media screen and (min-width: 1297px) {
-
-  .restaurants {
-
-  > div {
-    gap: 120px 200px;
-  }
-}
-} */
 
 @media screen and (min-width: 1536px) {
 
   .restaurants {
 
-  > div {
-    gap: 60px 80px;
-
-/*     &__article {
-      transform: scale(1.2);
-  } */
-  
+    > div {
+      gap: 60px 80px;
+    }
   }
-}
 }
 
 /* Ordinateur */
 @media screen and (min-width: 1280px) {
 
-    .header-menu {
-    
-        a{
-          .fa-arrow-left{
-            left: 40px;
-          }
-        }
+  .header-menu {
+
+    a {
+      .fa-arrow-left {
+        left: 40px;
       }
+    }
+  }
 
 }
