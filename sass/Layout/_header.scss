@@ -17,13 +17,19 @@
   .header-menu {
     margin-left: 20px;
     margin-top : 25px;
-    margin-bottom: 15px; /* cette élément était dans la section en desous sur la page du home */
+    margin-bottom: 15px;
     @include flex-row;
     align-items : center;
+    justify-content : center;
 
     a{
       display: flex;
       justify-content : center;
+
+      .fa-arrow-left{
+        position: absolute;
+        left: 20px;
+      }
 
       img{
         width : 50%;
@@ -34,8 +40,18 @@
     }
 
 
-    &--center{
+    &--center{ // lui, il fait pas son travail
       @include flex-center;
+      justify-content : center;
+    }
+  }
+
+  @keyframes fadein {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
     }
   }
 
