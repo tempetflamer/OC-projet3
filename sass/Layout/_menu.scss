@@ -39,26 +39,6 @@
 
     &__meals {
 
-/*         .appetizers:first-of-type(1) {
-            animation: fadein 1s ease-in-out;
-        }
-
-        .appetizers:first-of-type(2) {
-            animation: fadein 2s ease-in-out;
-        }
-
-        .appetizers:first-of-type(3) {
-            animation: fadein 3s ease-in-out;
-        }
-
-        .dishes {
-            animation: fadein 4s ease-in-out;
-        }
-
-        .desserts {
-            animation: fadein 6s ease-in-out;
-        } */
-
         h2 {
             color: #606060;
             font-size: 18px;
@@ -174,11 +154,6 @@
         }
     }
 
-    .btn--center {
-        margin-top: 40px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
 }
 
 //L'effet de l'ombre de hover sur le bouton est trop
