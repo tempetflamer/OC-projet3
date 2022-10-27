@@ -2,7 +2,7 @@
   "name": "oc-projet3",
   "version": "1.0.0",
   "description": "projet 3 Ohmyfood",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.min.css -w --style compressed --no-source-map",
     "prefix": "postcss ./public/css/style.min.css --use autoprefixer -d ./public/css/"
