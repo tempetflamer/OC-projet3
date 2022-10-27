@@ -35,23 +35,10 @@
   flex-direction: row;
 }
 
-//est-ce que je le renommerer pas en section pour touts les section
-@mixin operation {
+@mixin section {
   width: 100%;
   @include section-padding;
 }
-
-@mixin restaurants {
-  width: 100%;
-  @include section-padding;
-}
-
-@mixin menu {
-  width: 100%;
-  @include section-padding;
-}
-
-//j'en fais un mixin mais théoriquement ça devrait-être un composants
 
 @mixin heart-hover {
   text-shadow: none;

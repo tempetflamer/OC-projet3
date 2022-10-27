@@ -1,0 +1,29 @@
+.restaurants {
+    &__article {
+        &__data {
+            .fa-heart {
+                padding:8px;
+                margin-top: 5px;
+                text-shadow: 0 0 2px #000;
+                color: #fff;
+            
+                &:hover {
+                    @include heart-hover;
+                }
+            }
+        }
+    }
+}
+
+.menu {
+        .fa-heart {
+            text-shadow: 0 0 2px #000;
+            padding: 8px;
+            color: #F6F6F6;
+            cursor: pointer;
+        }
+
+        .fa-heart:hover {
+            @include heart-hover;
+        }
+    }

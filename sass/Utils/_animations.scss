@@ -1,20 +1,17 @@
 @keyframes rotate {
     from {
-      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
     }
     to {
-      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
     }
   }
 
   @keyframes grow{
     0%,100% {
-      -webkit-transform: scaleY(1);
       transform: scaleY(1);
     }
-  
     50%{
-      -webkit-transform: scaleY(1.5);
       transform: scaleY(1.5);
     }
   }
@@ -39,7 +36,6 @@
       position: absolute;
       opacity: 0;
       overflow: hidden;
-
     }
   }
 

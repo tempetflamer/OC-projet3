@@ -1,5 +1,5 @@
 .restaurants {
-    @include restaurants;
+    @include section;
     background-color: #F6F6F6;
 
     a {
@@ -22,10 +22,8 @@
             border-radius: 5px;
             width: 85px;
             padding: 5px;
-
             position: absolute;
             left: 260px;
-
         }
 
         &__data {
@@ -37,29 +35,9 @@
                 width: 80%;
                 p{
                     margin-top: 5px;
-
                 }
-            }
-
-            .fa-heart {
-                padding:8px;
-                margin-top: 5px;
-                text-shadow: 0 0 2px #000;
-                color: #fff;
-
-                &:hover {
-                    text-shadow: none;
-                    background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    -moz-background-clip: text;
-                    -moz-text-fill-color: transparent;
-
-                }
-
             }
         }
-
     }
 
     div {

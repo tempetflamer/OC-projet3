@@ -1,6 +1,6 @@
 .btn__about button{
   background-image: $linear-gradient;
-  border: none; // sinon le hover rajouter des bordures et en 1px même en transparent on voit un liseret violet foncée
+  border: none;
   border-radius: 30px;
   padding: 15px 20px;
   color: #fff;
@@ -15,7 +15,6 @@
   }
   
   .menu {
-
     .btn--center {
         margin-top: 40px;
         margin-bottom: 30px;
@@ -23,7 +22,7 @@
 
          .btn__menu button{
           background-image: $linear-gradient;
-          border: none; // sinon le hover rajouter des bordures et en 1px même en transparent on voit un liseret violet foncée
+          border: none;
           border-radius: 30px;
           padding: 15px 40px;
           color: #fff;

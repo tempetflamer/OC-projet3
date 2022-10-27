@@ -1,8 +1,7 @@
 .about {
   background: #f6f6f6;
   text-align: center;
-  width: 100%;
-  @include section-padding;
+  @include section;
     p {
       color: #4d4d4d;
       margin-bottom: 24px;

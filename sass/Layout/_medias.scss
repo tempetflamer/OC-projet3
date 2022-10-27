@@ -1,14 +1,13 @@
 /* Tablet */
-
 @media screen and (min-width: 768px) {
 
+  // index
   .restaurants {
-    @include restaurants;
+    @include section;
     background-color: #F6F6F6;
     text-align: center;
 
     &--flex {
-      // Les margins sont là pour éviter les problèmes de marges lié au scale
       margin-right: 30px;
       margin-left: 30px;
       margin-top: 40px;
@@ -16,10 +15,7 @@
       @include flex-row;
       flex-wrap: wrap;
       justify-content: center;
-
     }
-
-
 
     &__article {
       transform: scale(1.1);
@@ -27,11 +23,8 @@
       &--green {
         margin-left: -20px;
       }
-
     }
-
   }
-
 
   .operation {
     text-align: center;
@@ -54,16 +47,11 @@
 
   .menu {
     &__title {
-      justify-content: center !important; // voir si la classe row existe autrepart sinon enlever row pour enlerver imortant property (descente d'un en priorité)
+      justify-content: center !important;
       gap: 40px;
-
-      h1 {
-        //augmenter la font size
-      }
     }
 
     &--flex {
-      // rupture a 777 pour les deux à coté et 1157 pour les 3 à coté
       @include flex-row;
       justify-content: center;
       gap: 40px;
@@ -85,14 +73,13 @@
     ul {
       padding: 0;
       display: flex;
-      gap: 40px; // peut peut-être le faire changer davantage en fonction de la taille de l'écran notamemnt au cap des 1280px
+      gap: 40px;
     }
 
   }
 
   /* header */
   .header-menu {
-
     a {
       .fa-arrow-left {
         left: 30px;
@@ -111,17 +98,13 @@
   }
 }
 
-//remplacer tous ces gap par une taille
 @media screen and (min-width: 1235px) {
 
   .restaurants {
-
-    > div {
+    >div {
       @include flex-row;
       flex-wrap: wrap;
       justify-content: center;
-
-
     }
   }
 }
@@ -129,8 +112,7 @@
 @media screen and (min-width: 1536px) {
 
   .restaurants {
-
-    > div {
+    >div {
       gap: 60px 80px;
     }
   }
@@ -140,7 +122,6 @@
 @media screen and (min-width: 1280px) {
 
   .header-menu {
-
     a {
       .fa-arrow-left {
         left: 40px;
