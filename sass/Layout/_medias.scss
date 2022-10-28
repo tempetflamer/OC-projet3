@@ -1,3 +1,11 @@
+@media screen and (min-width: 500px) {
+  .header-home {
+    a {
+      width: 200px; 
+    }
+  }
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
 
@@ -86,17 +94,14 @@
       }
     }
   }
-
-  /* Animation */
-  .circle2 {
-    display: flex;
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    animation: rotate 2.5s linear infinite;
+  .header-home {
+    a {
+      width: 250px; 
+    }
   }
+
 }
+
 
 @media screen and (min-width: 1235px) {
 
@@ -118,6 +123,15 @@
   }
 }
 
+@media screen and (min-width: 980px) {
+  .header-home {
+    a {
+      width: 300px; 
+    }
+  }
+
+}
+
 /* Ordinateur */
 @media screen and (min-width: 1280px) {
 
@@ -126,6 +140,11 @@
       .fa-arrow-left {
         left: 40px;
       }
+    }
+  }
+  .header-home {
+    a {
+      width: 350px; 
     }
   }
 

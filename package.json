@@ -13,7 +13,11 @@
   },
   "author": "Nicolas Lecroq",
   "license": "ISC",
-  "browserslist": "last 4 versions",
+  "browserslist": [
+    "last 4 version",
+    "> 1%",
+    "not dead"
+  ],
   "bugs": {
     "url": "https://github.com/tempetflamer/OC-projet3/issues"
   },
